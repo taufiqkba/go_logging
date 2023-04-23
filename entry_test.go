@@ -15,5 +15,4 @@ func TestEntry(t *testing.T) {
 	entry := logrus.NewEntry(logger)
 	entry.WithField("username", "taufiq")
 	entry.Info("Hello Entry")
-
 }
